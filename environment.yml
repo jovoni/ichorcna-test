@@ -1,0 +1,10 @@
+name: base
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - snakemake >=7
+  - hmmcopy
+  - bioconductor-ichorcna
+  - r-optparse
+  - samtools
