@@ -2,5 +2,5 @@
   "name": "ichorcna-dev",
   "build": { "dockerfile": "Dockerfile", "context": ".." },
   "postCreateCommand": "which readCounter && Rscript -e 'library(ichorCNA)'",
-  "remoteUser": "vscode"
+  "remoteUser": "mambauser"
 }

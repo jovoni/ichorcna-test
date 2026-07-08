@@ -4,7 +4,11 @@ channels:
   - conda-forge
 dependencies:
   - snakemake >=7
-  - hmmcopy
-  - bioconductor-ichorcna
-  - r-optparse
+  - hmmcopy              # provides the readCounter binary
   - samtools
+  - r-base
+  - r-optparse
+  - r-plyr
+  - bioconductor-hmmcopy      # R package (different from the CLI hmmcopy above)
+  - bioconductor-genomeinfodb
+  - bioconductor-genomicranges
