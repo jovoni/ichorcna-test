@@ -1,2 +1,2 @@
 samples:
-  tumor_sample1:  /path/to/bam/tumor.bam
+  ENCFF901AZO:  /workspaces/ichorcna-test/data/ENCFF901AZO.bam

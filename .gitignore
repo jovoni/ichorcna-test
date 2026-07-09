@@ -1,3 +1,4 @@
 data/
-scripts/snakemake/results/*
-scripts/snakemake/logs/*
+ichorCNA/scripts/snakemake/results/
+ichorCNA/scripts/snakemake/logs/
+ichorCNA/scripts/snakemake/.snakemake/
